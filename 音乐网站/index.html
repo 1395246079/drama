@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>本地音乐播放器</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 背景容器 -->
+    <div class="background-container"></div>
+    
+    <!-- 频谱可视化 -->
+    <canvas id="visualizer"></canvas>
+    
+    <!-- 音频控制 -->
+    <div class="controls">
+        <button id="playBtn">点击播放音乐</button>
+        <audio id="audio" src="assets/audio.mp3" preload="auto"></audio>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
